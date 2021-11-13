@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/english-dictionary/static/css/main.ac0f571c.chunk.css",
-    "main.js": "/english-dictionary/static/js/main.d94520a5.chunk.js",
-    "main.js.map": "/english-dictionary/static/js/main.d94520a5.chunk.js.map",
-    "runtime-main.js": "/english-dictionary/static/js/runtime-main.31058df6.js",
-    "runtime-main.js.map": "/english-dictionary/static/js/runtime-main.31058df6.js.map",
-    "static/js/2.76db6611.chunk.js": "/english-dictionary/static/js/2.76db6611.chunk.js",
-    "static/js/2.76db6611.chunk.js.map": "/english-dictionary/static/js/2.76db6611.chunk.js.map",
-    "index.html": "/english-dictionary/index.html",
-    "static/css/main.ac0f571c.chunk.css.map": "/english-dictionary/static/css/main.ac0f571c.chunk.css.map",
-    "static/js/2.76db6611.chunk.js.LICENSE.txt": "/english-dictionary/static/js/2.76db6611.chunk.js.LICENSE.txt"
+    "main.css": "/english_dictionary/static/css/main.ac0f571c.chunk.css",
+    "main.js": "/english_dictionary/static/js/main.d94520a5.chunk.js",
+    "main.js.map": "/english_dictionary/static/js/main.d94520a5.chunk.js.map",
+    "runtime-main.js": "/english_dictionary/static/js/runtime-main.ddf00e63.js",
+    "runtime-main.js.map": "/english_dictionary/static/js/runtime-main.ddf00e63.js.map",
+    "static/js/2.76db6611.chunk.js": "/english_dictionary/static/js/2.76db6611.chunk.js",
+    "static/js/2.76db6611.chunk.js.map": "/english_dictionary/static/js/2.76db6611.chunk.js.map",
+    "index.html": "/english_dictionary/index.html",
+    "static/css/main.ac0f571c.chunk.css.map": "/english_dictionary/static/css/main.ac0f571c.chunk.css.map",
+    "static/js/2.76db6611.chunk.js.LICENSE.txt": "/english_dictionary/static/js/2.76db6611.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.31058df6.js",
+    "static/js/runtime-main.ddf00e63.js",
     "static/js/2.76db6611.chunk.js",
     "static/css/main.ac0f571c.chunk.css",
     "static/js/main.d94520a5.chunk.js"
