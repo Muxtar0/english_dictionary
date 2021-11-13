@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: all 300ms;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,html{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
+  width: 100%;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: #4d59fb;
+}
+.MainDiv{
+  background: white;
+  padding: 28px 28px 45px;
+  border-radius: 7px;
+  width: 420px;
+}
+.MainDiv h1{
+  text-align: center;
+  color: #222;
+  margin-bottom: 15px;
+}
+.MainDiv .MainInputDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+.MainDiv .MainInputDiv button{
+  border: none;
+  outline: none;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 17px;
+  padding: 10px 15px;
+  border-radius: 7px;
+  background: #4d59fb;
+  border: 1px solid #4d59fb;
   color: white;
+  cursor: pointer;
+  transition: all 300ms;
+  margin-left: 10px;
+}
+.MainDiv .MainInputDiv button:hover{
+  background: transparent;
+  color: #4d59fb;
+}
+.MainDiv .InputDiv{
+  width: 100%;
+  height: 50px;
+  border-radius: 7px;
+  border: 1px solid #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+.MainDiv .InputDiv input{
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.MainDiv .WordAndSpeak{
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(214, 214, 214, 0.6);
+}
+.MainDiv .WordAndSpeak p{
+  color: #888;
+  
+}
+.MainDiv .MainMeaning{
+  margin: 15px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(214, 214, 214, 0.6);
 }
 
-.App-link {
-  color: #61dafb;
+.MainDiv .Meaning{
+  padding-left: 10px;
+  border-left: 3px solid #4d59fb;
+  border-radius: 7px;
+  padding-bottom: 5px;
+  
+}
+.MainDiv .Meaning p{
+  color: #555;
+}
+.MainDiv .MainExample{
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(214, 214, 214, 0.6);
+}
+.MainDiv .Example{
+
+  padding-left: 10px;
+  border-left: 3px solid #4d59fb;
+  border-radius: 7px;
+}
+.MainDiv .Example p{
+  color: #555;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.MainDiv .Synonyms{
+  
+  padding-left: 10px;
+  border-left: 3px solid #4d59fb;
+  border-radius: 7px;
+}
+.MainDiv .Synonyms p{
+  color: #555;
+  word-break: break-all;
+}
+
+@media (max-width:640px){
+  .App{
+    padding: 10px 0;
   }
-  to {
-    transform: rotate(360deg);
+  .MainDiv{
+    width: 98%;
   }
 }
